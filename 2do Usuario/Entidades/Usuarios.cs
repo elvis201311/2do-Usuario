@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.ComponentModel.DataAnnotations;
 
-namespace Registro_de_Usuario.Entidades
+namespace _2do_Usuario.Entidades
 {
-    public class Usuarios
+   public class Usuarios
     {
         [Key]
         public int UsuarioId { get; set; }
         public String Nombre { get; set; }
         public String Clave { get; set; }
 
-        /*[ForeignKey(UsuaioId)]
-        public virtual Usuarios Usuarios { get; set; }*/
+
     }
 }

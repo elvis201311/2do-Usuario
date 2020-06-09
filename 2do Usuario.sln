@@ -5,23 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2do Usuario", "2do Usuario\2do Usuario.csproj", "{747DBBCF-5559-4362-8BF2-1C369393BD6E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{814A5EC7-BCA0-4757-B20D-B4997562F4B6}"
-	ProjectSection(SolutionItems) = preProject
-		Usuario.cs = Usuario.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{5296AB9C-6802-4A20-BF53-68E2CCA5E215}"
-	ProjectSection(SolutionItems) = preProject
-		Contexto.cs = Contexto.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1DA8A7B7-5433-41F4-B56D-E3F3848B9CDF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{683B19D0-9048-49C8-B3B6-B29101C8F0DD}"
-	ProjectSection(SolutionItems) = preProject
-		UsuariosBLL.cs = UsuariosBLL.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
